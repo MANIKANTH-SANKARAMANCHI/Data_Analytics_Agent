@@ -159,6 +159,6 @@ This project is developed collaboratively by **Kusuma** and **Rajeev**, working 
 
 ## Authors
 
-**Kusuma Ch** — Master’s student, Data Science  
+**Pvsss Manikanth Sankaramanchi** — Master’s student, Advanced Data Analytics  
 
-**Rajeev** — MCA student, Data Science
+
