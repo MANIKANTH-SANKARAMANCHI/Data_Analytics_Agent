@@ -1,6 +1,5 @@
 # AI Data Analyst Agent (DataPilot)
 
-**Live App:** https://kusuma19072001-ai-data-analyst-agent-app-odnuhd.streamlit.app/
 
 An intelligent Streamlit application that runs an **end-to-end automated analytics pipeline**: upload a tabular dataset, clean and profile the data, explore it with summaries and charts, train baseline machine learning models, and optionally generate a **Gemini-powered narrative report** (with PDF download).
 
