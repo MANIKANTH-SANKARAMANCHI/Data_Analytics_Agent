@@ -1,7 +1,9 @@
 # AI Data Analyst Agent (DataPilot)
 
 
-An intelligent Streamlit application that runs an **end-to-end automated analytics pipeline**: upload a tabular dataset, clean and profile the data, explore it with summaries and charts, train baseline machine learning models, and optionally generate a **Gemini-powered narrative report** (with PDF download).
+An intelligent Streamlit application that runs an **end-to-end automated analytics pipeline**: upload a tabular dataset, clean and profile the data, explore it with summaries and charts, train baseline ML models, and generate AI-powered insights.
+
+🔗 **[Live App](https://dataanalyticsagent-gklju5m8brn3zrnouup6fq.streamlit.app/)**
 
 ---
 
@@ -123,13 +125,13 @@ If `GEMINI_MODEL` is omitted, the app tries common Gemini model IDs and falls ba
 streamlit run app.py
 ```
 
-The app opens in your browser. Upload a dataset, step through the sidebar workflow, pick a target column when you want ML training, then use **Generate AI Insights** when your API key is configured. You can download the full report as **full_ai_report.pdf** when charts and insights are available.
+The app opens in your browser. Upload a dataset, step through the sidebar workflow, pick a target column when you want ML training, then use **Generate AI Insights** when your API key is configured.
 
 ---
 
 ## Example use case
 
-Upload something like the Titanic dataset (or any CSV/XLSX with labeled columns). The agent will clean the data, show quality and EDA views, produce charts, train and compare models if you select a target, and summarize findings in business-oriented language via Gemini.
+Upload something like the Titanic dataset (or any CSV/XLSX with labeled columns). The agent will clean the data, show quality and EDA views, produce charts, train and compare models if you select a target, and optionally generate a PDF report with Gemini-powered insights.
 
 ---
 
@@ -158,6 +160,5 @@ This project is developed collaboratively by **Kusuma** and **Rajeev**, working 
 
 ## Authors
 
-**Pvsss Manikanth Sankaramanchi** — Master’s student, Advanced Data Analytics  
-
+**Pvsss Manikanth Sankaramanchi** — Master's student, Advanced Data Analytics
 
